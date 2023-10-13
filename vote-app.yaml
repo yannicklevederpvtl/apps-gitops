@@ -7,7 +7,7 @@ spec:
   serviceAccountName: default
   fetch:
     - git:
-        url: https://github.com/rahulrai-in/azure-voting-app-dotnet
+        url: https://github.com/yannicklevederpvtl/vote-app.git
         ref: origin/main
         subPath: kubernetes-manifests/
   template:
