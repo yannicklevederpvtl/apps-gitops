@@ -2,9 +2,9 @@ apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
   name: vote-app
-  namespace: default
+  namespace: carvel-apps
 spec:
-  serviceAccountName: default
+  serviceAccountName: infra-provisioner-sa
   fetch:
     - git:
         url: https://github.com/yannicklevederpvtl/vote-app.git
