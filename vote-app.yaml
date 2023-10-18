@@ -13,4 +13,5 @@ spec:
   template:
     - ytt: {}
   deploy:
-    - kapp: {}
+    - kapp: 
+        intoNs: production
